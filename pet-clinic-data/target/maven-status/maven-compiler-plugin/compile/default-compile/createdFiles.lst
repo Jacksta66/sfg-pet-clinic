@@ -1,0 +1,5 @@
+pets\com\au\sfgpetclinic\model\Owner.class
+pets\com\au\sfgpetclinic\model\Person.class
+pets\com\au\sfgpetclinic\model\Pet.class
+pets\com\au\sfgpetclinic\model\PetType.class
+pets\com\au\sfgpetclinic\model\Vet.class
