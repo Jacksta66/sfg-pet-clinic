@@ -2,10 +2,11 @@ package pets.com.au.sfgpetclinic.service.map;
 
 import pets.com.au.sfgpetclinic.model.Vet;
 import pets.com.au.sfgpetclinic.service.CrudService;
+import pets.com.au.sfgpetclinic.service.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
